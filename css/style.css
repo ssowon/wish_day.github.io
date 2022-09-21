@@ -1,0 +1,104 @@
+.hidden {
+  display: none;
+}
+.right {
+  float: right;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+.toDoInput {
+  margin-top: 80px;
+  width: 300px;
+  background-color: rgba(198, 198, 198, 0.749);
+  color: #1e6b7b;
+  text-align: center;
+  position: relative;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-family: "paybooc-Light", sans-serif;
+  font-size: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  border: none;
+}
+
+.toDoDelBnt {
+  background-color: rgba(198, 198, 198, 0.749);
+  text-align: center;
+  position: relative;
+  padding: 10px 10px;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  border: none;
+}
+
+.bgImg {
+  z-index: 1;
+  position: relative;
+  opacity: 0.5;
+  left: 0;  
+  right: 0;  
+  top: 0;  
+  bottom: 0;  
+  margin: auto;  
+  overflow: auto;  
+  position: fixed;  
+  height: 100vh;
+  background-repeat : no-repeat;
+  background-size : cover;
+}
+
+.cvImg {
+  z-index: 2;
+  position: absolute;  
+  opacity: 0.5;
+  left: 0;  
+  right: 0;  
+  top: 0;  
+  bottom: 0;  
+  margin: auto;  
+  overflow: auto;  
+  height: 100vw;
+  width: 100vw;
+  background-repeat : no-repeat;
+  background-size : cover;
+  background-color: #000;
+}
+
+#content {
+  z-index: 3;
+  position: relative;
+  margin: 100px auto;
+  text-align: center;
+}
+
+#clock {
+  margin: auto;
+  font-size: 75px;
+  color: aliceblue;
+}
+
+#todo-list {
+  width: 300px;
+  margin: 30px auto;
+  text-align: left;
+  font-size: 20px;
+  line-height: 50px;
+  color: antiquewhite;
+}
+
+#quote {
+  display: inline-block;
+  width:700px;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+#weather {
+  font-size: 20px;
+  margin-top: 20px;
+}
